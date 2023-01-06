@@ -2,6 +2,8 @@
 
 Dictionnaire Wolof français.
 
+Contribuez ici : [Ajouter Contribution](/src/data/dictionary.js)
+
 # Mots disponibles:
 
 
