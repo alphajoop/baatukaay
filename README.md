@@ -6,3 +6,6 @@ Dictionnaire Wolof français.
 
 
 aada, aafiya, aajo, aajowoo, aaju, aakimu, aal, aalim, aaya, aaye, aaye b-, aay-gaaf, aayoo, aaytal
+
+
+Template by @codingnepal
