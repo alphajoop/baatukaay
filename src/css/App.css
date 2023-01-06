@@ -28,6 +28,7 @@ body{
   font-size: 28px;
   font-weight: 500;
   text-align: center;
+  color: #000;
 }
 .container .search{
   position: relative;
@@ -155,30 +156,21 @@ ul .content::-webkit-scrollbar{
   text-decoration: underline;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
     .container {
         width: auto;
-        max-width: 360px;
+        max-width: 355px;
     }
 }
 
-@media (max-width: 378px) {
-    .container {
-        width: auto;
-        max-width: 340px;
-    }
-}
-
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .container {
-      width: auto;
       max-width: 320px;
   }
 }
 
-@media (max-width: 325px) {
-    .container {
-        width: auto;
-        max-width: 290px;
-    }
+@media (max-width: 320px) {
+  .container {
+      max-width: 300px;
+  }
 }

@@ -31,7 +31,7 @@ function Wrapper() {
             <div className="content">
                 <li className="meaning">
                     <div className="details">
-                        <p>Signification</p>
+                        <p>Sense en français</p>
                         <span>___</span>
                     </div>
                 </li>

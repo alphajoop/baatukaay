@@ -8,6 +8,62 @@ const Dictionary = [
 		synonyms: ''
 	},
 	{
+		word: 'aafiya',
+		phontetics: '[?a:fiya]',
+		meaning: 'paix',
+		examplewo: 'May ma aafiya.',
+		examplefr: 'Fiche-moi la paix.',
+		synonyms: ''
+	},
+	{
+		word: 'aajo',
+		phontetics: '[?a:jɔ]',
+		meaning: 'égards, attention, considération',
+		examplewo: 'Seeti ko, sa aajo faju.',
+		examplefr: 'Va le voir, tes besoins seront satisfaits.',
+		synonyms: ''
+	},
+	{
+		word: 'aajowoo',
+		phontetics: '[?a:jɔwɔ]',
+		meaning: 'avoir besoin de',
+		examplewo: 'Lépp loo aajowoo, dina ko toppatoo.',
+		examplefr: 'Tout ce dont tu auras besoin, il s\'en occupera.',
+		synonyms: 'Soxla'
+	},
+	{
+		word: 'aaju',
+		phontetics: '[?a:ju]',
+		meaning: 'être nécessaire de, valoir la peine de',
+		examplewo: 'Ndax aaju na nu seeti ko.',
+		examplefr: 'Est-il nécessaire que nous allions le voir ?.',
+		synonyms: 'Soxla, Laaj, Mat'
+	},
+	{
+		word: 'aakimu',
+		phontetics: '[?a:kimu]',
+		meaning: 'accaparer',
+		examplewo: 'Mu ngi aakimu mikoro bi, mėnatuňoo jél kàddu gi.',
+		examplefr: 'Il a accaparé le micro, on ne peut plus prendre la parole.',
+		synonyms: 'wéetoo'
+	},
+	{
+		word: 'aal',
+		phontetics: '[?ha:l]',
+		meaning: 'mauvaise humeur',
+		examplewo: 'Bu ko aal bi jàppee.',
+		examplefr: 'Quand il est de mauvaise humeur.',
+		synonyms: ''
+	},
+	{
+		word: 'aalim',
+		phontetics: '[?a:lim]',
+		meaning: 'érudit',
+		examplewo: 'Aalim yi ci dëkk bi daje nañu.',
+		examplefr: 'Les érudits qui sont dans la ville se sont réunis.',
+		synonyms: ''
+	},
+	{
 		word: 'aaya',
 		phontetics: '[?a:ya]',
 		meaning: 'verset du Coran',
