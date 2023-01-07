@@ -64,6 +64,30 @@ const Dictionary = [
 		synonyms: ''
 	},
 	{
+		word: 'aar',
+		phontetics: '[?a:r]',
+		meaning: 'laver une pièce de linge pour la première fois',
+		examplewo: 'Maa ngi sooga aar mbubb ma ma jéndoon.',
+		examplefr: 'Je viens seulement de laver le boubou que j\'avais acheté.',
+		synonyms: ''
+	},
+	{
+		word: 'aar 2',
+		phontetics: '[?a:r]',
+		meaning: 'protéger, défendre',
+		examplewo: 'Soldaar seey aar réew mi.',
+		examplefr: 'Ce sont les soldats qui protégent le pays.',
+		synonyms: 'Kaaraa-nge l-'
+	},
+	{
+		word: 'aaréen j-',
+		phontetics: '[?a:re:n]',
+		meaning: 'arachide',
+		examplewo: 'Dañu toskareel aaréen.',
+		examplefr: 'On a fait de l\'arachide un parent pauvre.',
+		synonyms: 'Kalaŋ g, Kemb g, gerte g, Ass tigadege j-'
+	},
+	{
 		word: 'aaya',
 		phontetics: '[?a:ya]',
 		meaning: 'verset du Coran',
