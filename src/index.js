@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './components/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import './css/style.css';
 import reportWebVitals from './reportWebVitals';
+import Wrapper from './components/wrapper';
+import Navbar from './components/navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const navbar = ReactDOM.createRoot(document.getElementById('navbar'));
+
+navbar.render(
+  <React.StrictMode>
+    <Navbar/>
+  </React.StrictMode>
+);
 root.render(
   <React.StrictMode>
-    <App />
+    <Wrapper/>
   </React.StrictMode>
 );
 

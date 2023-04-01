@@ -1,4 +1,6 @@
 //import { useState } from 'react'
+import { faSearch, faX } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Script, handleClick } from './script';
 function Wrapper() {
     //const [updated, setUpdated] = useState('');
@@ -12,12 +14,13 @@ function Wrapper() {
     };
     
     return (
-    <div className="container">
+    <section id="landing-page">
+        <div className="container">
         <header>Baatukaay Wolof</header>
         <div className="search">
             <input type="text" placeholder="Rechercher un mot" required  onKeyDown={handleKeyDown} />
-            <i className="bi bi-search"></i>
-            <span className="material-icons bi bi-x" onClick={handleClick}></span>
+            <i><FontAwesomeIcon icon={faSearch} /></i>
+            <span className="material-icons" onClick={handleClick}><FontAwesomeIcon icon={faX} /></span>
         </div>
         <p className="info-text">Tapez n'importe quel mot existant et appuyez sur Entrée pour obtenir une signification, un exemple, des synonymes, etc.</p>
         <ul>
@@ -50,7 +53,8 @@ function Wrapper() {
                 </li>
             </div>
         </ul>
-    </div>
+        </div>
+    </section>
     );
 }
 
